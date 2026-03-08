@@ -1,0 +1,41 @@
+# Model artifacts
+*.pth
+*.pt
+*.pkl
+*.h5
+
+# Media artifacts
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Local environment files (secrets)
+.env
+.env.*
+.env.local
+!.env.example
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Local result folders
+brute_force_results_bs/
+brute_force_results_hl_barrier/
+brute_force_results_no_features/
