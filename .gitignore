@@ -39,3 +39,9 @@ Thumbs.db
 brute_force_results_bs/
 brute_force_results_hl_barrier/
 brute_force_results_no_features/
+@eaDir/
+Thumbs.db
+brute_force_results_*/
+*.pth
+*.pkl
+.env.local
