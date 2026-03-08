@@ -45,3 +45,9 @@ brute_force_results_*/
 *.pth
 *.pkl
 .env.local
+@eaDir/
+Thumbs.db
+brute_force_results_*/
+*.pth
+*.pkl
+.env.local
