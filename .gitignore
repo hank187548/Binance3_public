@@ -1,53 +1,41 @@
-# Model artifacts
-*.pth
-*.pt
-*.pkl
-*.h5
-
-# Media artifacts
-*.png
-*.jpg
-*.jpeg
-*.gif
-
-# Python cache and compiled files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
-venv/
-env/
-.venv/
-
 # Local environment files (secrets)
 .env
 .env.*
 .env.local
 !.env.example
 
-# IDE/editor settings
-.vscode/
-.idea/
+# Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
 
-# OS-specific files
+# Local training artifacts
+brute_force_results_*/
+*.pth
+*.pt
+*.pkl
+*.h5
+btc_labeled_data.csv
+
+# Ignore generated media by default, but keep curated README assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+!assets/
+!assets/images/
+!assets/images/*.png
+!assets/images/*.jpg
+!assets/images/*.jpeg
+!assets/images/*.gif
+
+# OS/editor noise
 .DS_Store
 Thumbs.db
-
-# Local result folders
-brute_force_results_bs/
-brute_force_results_hl_barrier/
-brute_force_results_no_features/
 @eaDir/
-Thumbs.db
-brute_force_results_*/
-*.pth
-*.pkl
-.env.local
-@eaDir/
-Thumbs.db
-brute_force_results_*/
-*.pth
-*.pkl
-.env.local
+.vscode/
+.idea/
